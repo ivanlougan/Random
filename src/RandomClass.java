@@ -1,10 +1,10 @@
 public class RandomClass {
-    String rob;
+    String robi;
 
     public RandomClass(String rob) {
-        this.rob = rob;
+        this.robi = rob;
     }
 }
 class Rob {
-    RandomClass r = new RandomClass("Bob");
+    RandomClass r = new RandomClass("Bobbii");
 }

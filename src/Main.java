@@ -19,7 +19,7 @@ public class Main {
             }else  if (userNumber < numberToGuess) {
                 System.out.println("twoja liczba jest za mała");
             }else {
-                System.out.println("zgadłeś chujku");
+                System.out.println("zgadłeś! prawdziwy z cb kocur!");
                 wasNumberGuessed = true;
             }
         }
