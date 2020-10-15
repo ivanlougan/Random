@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Random random = new Random();
         int numberToGuess = random.nextInt(100) + 1;
 
@@ -11,7 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (!wasNumberGuessed) {
-            System.out.println("podaj liczbę");
+            System.out.println("Odgadnij liczbę z przedziału 1-100");
             int userNumber = scanner.nextInt();
             if (userNumber > numberToGuess ) {
                 System.out.println("twoja liczba jest za duża");
